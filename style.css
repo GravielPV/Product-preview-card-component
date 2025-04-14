@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(0, 0%, 100%);
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+
+ .carta {
+    display: flex;
+    width: 33%;
+    height: 44%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    
+}
+
+.perfume {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+    border-radius: 16px 0 0 16px ;
+
+   
+}	
+
+ .contenido {
+  
+    color: black;
+    width: 1200px;
+    height: 800px;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(228, 12%, 48%);
+    margin-left: 25px;
+    margin-top: 25px;
+}	
+
+h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(0, 0%, 0%);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(228, 12%, 48%);
+    margin-left: 25px;
+    margin-top: 25px;
+    display: column;
+    
+}
+
+h2 {
+    font-size: 2.40rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(158, 36%, 37%);
+    margin-left: 25px;
+    margin-top: 25px;
+}	
+
+h5 {
+    font-size: 0.80rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: hsl(228, 12%, 48%);
+    margin-left: 25px;
+    margin-top: 25px;
+    text-decoration: line-through;
+    position: fixed;
+    top: 482px;
+    left: 1090px;
+
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 280px;
+    height: 45px;
+}	
+
+
