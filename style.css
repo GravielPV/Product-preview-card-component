@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(0, 0%, 100%);
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+
+ .carta {
+    display: flex;
+    width: 32%;
+    height: 45%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    overflow: hidden;
+    
+}
+
+.perfume {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+    border-radius: 16px 0 0 16px ;
+    
+
+   
+}	
+
+ .contenido {
+  
+    color: black;
+    width: 1200px;
+    height: auto;
+
+}
+
+h3 {
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(228, 12%, 48%);
+    margin-left: 35px;
+    margin-top: 25px;
+    font-family: 'Fraunces';
+    font-weight: 520;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}	
+
+h1 {
+    font-size: 2.0rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(0, 0%, 0%);
+    margin-left: 35px;
+    margin-top: 15px;
+    font-family: 'Fraunces';
+    display: column;
+    font-weight: 700;
+    width: 60%;
+    
+}
+
+p {
+    font-size: 0.82rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(228, 12%, 48%);
+    margin-left: 35px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    width: 65%;
+
+    
+}
+
+h2 {
+    font-size: 2.40rem;
+    margin: 0.5rem 0;
+    text-align: start;
+    color: hsl(158, 36%, 37%);
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: 'Fraunces';
+}	
+
+h5 {
+    font-size: 0.80rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: hsl(228, 12%, 48%);
+    margin-top: 25px;
+    text-decoration: line-through;
+    position: fixed;
+    top: 530px;
+    left: 1095px;
+
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.03rem;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 280px;
+    height: 50px;
+  text-decoration: none;
+}	
+
+
+
+
